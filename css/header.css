@@ -1,0 +1,36 @@
+header {
+  background-color: red;
+}
+
+.caixa-logo,
+.caixa-geral {
+  display: inline-block;
+}
+
+.caixa-logo img,
+.caixa-logo h1 {
+  display: inline-block;
+}
+
+.caixa-busca,
+.caixa-usuario {
+  display: inline-block;
+}
+
+
+.caixa-logo {
+  width: 25%;
+  border-right: 2px solid white;
+}
+
+.caixa-geral {
+  width: 74%;
+}
+
+.caixa-busca {
+  width: 69%;
+}
+
+.caixa-usuario {
+  width: 30%;
+}
