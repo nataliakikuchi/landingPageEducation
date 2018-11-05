@@ -1,36 +1,29 @@
-header {
-  background-color: red;
-}
 
-.caixa-logo,
-.caixa-geral {
+#box-logo,
+#general {
   display: inline-block;
 }
 
-.caixa-logo img,
-.caixa-logo h1 {
+#box-logo img,
+#box-logo h1 {
   display: inline-block;
 }
 
-.caixa-busca,
-.caixa-usuario {
+.search {
   display: inline-block;
+  width: 69%;
 }
 
+#user {
+  display: inline-block;
+  width: 30%;
+}
 
-.caixa-logo {
+#box-logo {
   width: 25%;
   border-right: 2px solid white;
 }
 
-.caixa-geral {
+#general {
   width: 74%;
-}
-
-.caixa-busca {
-  width: 69%;
-}
-
-.caixa-usuario {
-  width: 30%;
 }
