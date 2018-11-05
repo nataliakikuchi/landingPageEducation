@@ -9,10 +9,10 @@
   display: inline-block;
 }
 
-.search {
+.botao-input {
   display: inline-block;
   width: 69%;
-  
+
 }
 
 #user {
@@ -29,7 +29,8 @@
   width: 74%;
 }
 
-#search-image {
+#search-button {
+  background: transparent;
   border: none;
-  
+
 }
