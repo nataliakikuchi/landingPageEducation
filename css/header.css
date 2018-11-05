@@ -12,6 +12,7 @@
 .search {
   display: inline-block;
   width: 69%;
+  
 }
 
 #user {
@@ -26,4 +27,9 @@
 
 #general {
   width: 74%;
+}
+
+#search-image {
+  border: none;
+  
 }
