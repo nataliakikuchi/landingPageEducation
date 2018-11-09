@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/menu.css">
 
 <head>
   <meta charset="utf-8">
@@ -12,24 +13,24 @@
   <header>
     <div id="box-logo">
       <a class="nav-logo" href="#">
-          <img src="img/logoProjetoNM.png" alt="logo do site">
+          <img class="logo" src="img/logoProjetoNM.png" alt="logo do site">
       </a>
-      <h1>Courses</h1>
+      <h1 class="courses">Courses</h1>
     </div>
     <div id="general">
     <div class="botao-input">
-      <button id= "search-button"type="submit"> <img class="search-icon"  src="img/search.png"></button>
+      <button id= "search-button"type="submit"><img class="search-icon"  src="img/search.png"></button>
       <input type="text" name="search" id="search" placeholder=" Search...">
     </div>
 
 
     <div id="user">
       <a class="notification" href="#">
-          <img src="img/notification.png" alt="Ícone de notificações">
+          <img class="notification" src="img/notification.png" alt="Ícone de notificações">
       </a>
 
       <a class="profile" href="#">
-          <img src="img/user.png" alt="Ícone de perfil">
+          <img class="profile" src="img/user.png" alt="Ícone de perfil">
       </a>
 
     </div>
@@ -37,7 +38,7 @@
   </header>
   <nav>
     <p>MENU</p>
-    <ul>
+    <ul class="menu-general">
       <li>
         <a href="#" target="_blank">
         <img src="img/folder.png" class= "menu1" alt="Ícone">
@@ -54,9 +55,10 @@
         <a href="#" target="_blank">
         <img src="img/folder.png" class= "menu4" alt="Ícone">
         </a>My Messages</li>
+      </ul>
 
         <p>GROUPS</p>
-        <ul id="groups">
+        <ul class="groups">
           <li class="checkbox">
             <label><input name="ux" value="1" type="checkbox">UX/UI</label></li>
 
@@ -67,10 +69,10 @@
             <label><input name="architecture" value="3" type="checkbox">Architecture</label></li>
 
           <p><a href="#" target="_blank">
-            <img src="#" class= "plus-icon" alt="Ícone +">
+            <img class="plus-icon" src="img/plus.png" class= "plus-icon" alt="Ícone +">
             </a>Add group</p>
           <p><a href="#" target="_blank">
-            <img src="#" class= "moon-icon" alt="Ícone Lua">
+            <img class="moon" src="img/moon.png" class= "moon-icon" alt="Ícone Lua">
             </a>Dark Mode </p>
         </nav>
         <section>
