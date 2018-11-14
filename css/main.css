@@ -1,4 +1,25 @@
+#main-title {
+    display: flex;
+    margin-left: 300px;
+}
+
+#main-title h1, select {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 #main-content {
     display: flex;
-    flex-direction: row;
+
+}
+
+#main-content div {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-general {
+    display: inline-block;
+    max-width: 30%;
 }
