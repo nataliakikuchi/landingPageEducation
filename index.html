@@ -1,84 +1,110 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/header.css">
-<link rel="stylesheet" href="css/menu.css">
-<link rel="stylesheet" href="css/main.css">
 
-<head>
-  <meta charset="utf-8">
-  <title>Projeto - Reprodução da Landing Page</title>
-</head>
-
-<body>
-  <header>
-    <div id="box-logo">
-      <a class="nav-logo" href="#">
-          <img class="logo" src="img/logoProjetoNM.png" alt="logo do site">
-      </a>
-      <h1 class="courses">Courses</h1>
-    </div>
-    <div id="general">
-    <div class="botao-input">
-      <button id= "search-button"type="submit">
-
-        <img class="search-icon"  src="img/search.png"></button>
-      
-      <input type="text" name="search" id="search" placeholder=" Search...">
-    </div>
+  <head>
+    <meta charset="utf-8">
+    <title>Projeto - Reprodução da Landing Page</title>
 
 
-    <div id="user">
-      <a class="notification" href="#">
-          <img class="notification" src="img/notification.png" alt="Ícone de notificações">
-      </a>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
 
-      <a class="profile" href="#">
-          <img class="profile" src="img/user.png" alt="Ícone de perfil">
-      </a>
-    </div>
-    </div>
-  </header>
-  <nav>
-    <p>MENU</p>
-    <ul class="menu-general">
-      <li>
-        <a href="#" target="_blank">
-        <img src="img/folder.png" class= "menu1" alt="Ícone">
-        </a>My Courses</li>
-      <li>
-        <a href="#" target="_blank">
-        <img src="img/folder.png" class= "menu2" alt="Ícone">
-        </a>Browse Courses</li>
-      <li>
-        <a href="#" target="_blank">
-        <img src="img/folder.png" class= "menu3" alt="Ícone">
-        </a>My Categories</li>
-      <li>
-        <a href="#" target="_blank">
-        <img src="img/folder.png" class= "menu4" alt="Ícone">
-        </a>My Messages</li>
-      </ul>
+  <body>
+    <header>
+      <div id="box-logo">
+        <a class="nav-logo" href="#">
+            <img class="logo" src="img/logoProjetoNM.png" alt="logo do site">
+        </a>
+        <h1 class="courses">Courses</h1>
+      </div>
+      <div id="general">
+      <div class="botao-input">
+        <button id= "search-button"type="submit">
+
+          <img class="search-icon"  src="img/search.png"></button>
+        
+        <input type="text" name="search" id="search" placeholder=" Search...">
+      </div>
+
+
+      <div id="user">
+        <a class="notification" href="#">
+            <img class="notification" src="img/notification.png" alt="Ícone de notificações">
+        </a>
+
+        <a class="profile" href="#">
+            <img class="profile" src="img/user.png" alt="Ícone de perfil">
+        </a>
+      </div>
+      </div>
+    </header>
+
+    <main>
+      <nav>
+        <p>MENU</p>
+
+        <ul class="menu-general">
+          <li>
+            <a href="#" target="_blank">
+              <img src="img/folder.png" class= "menu1" alt="Ícone">
+              My Courses
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <img src="img/folder.png" class= "menu2" alt="Ícone">
+              Browse Courses
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <img src="img/folder.png" class= "menu3" alt="Ícone">
+              My Categories
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <img src="img/folder.png" class= "menu4" alt="Ícone">
+              My Messages
+            </a>
+          </li>
+        </ul>
 
         <p>GROUPS</p>
+
         <ul class="groups">
           <li class="checkbox">
-            <label><input name="ux" value="1" type="checkbox">UX/UI</label></li>
+            <label><input name="ux" value="1" type="checkbox">UX/UI</label>
+          </li>
 
           <li class="checkbox">
-            <label><input name="industrial-design" value="2" type="checkbox">Industrial Design</label></li>
+            <label><input name="industrial-design" value="2" type="checkbox">Industrial Design</label>
+          </li>
 
           <li class="checkbox">
-            <label><input name="architecture" value="3" type="checkbox">Architecture</label></li>
+            <label><input name="architecture" value="3" type="checkbox">Architecture</label>
+          </li>
 
-          <p><a href="#" target="_blank">
-            <img class="plus-icon" src="img/plus.png" class= "plus-icon" alt="Ícone +">
-            </a>Add group</p>
-          <p><a href="#" target="_blank">
-            <img class="moon" src="img/moon.png" class= "moon-icon" alt="Ícone Lua">
-            </a>Dark Mode </p>
-        </nav>
-        <div class= "content-general">
+          <p>
+            <a href="#" target="_blank">
+              <img class="plus-icon" src="img/plus.png" class= "plus-icon" alt="Ícone +">
+              Add group
+            </a>
+          </p>
+
+          <p>
+            <a href="#" target="_blank">
+              <img class="moon" src="img/moon.png" class= "moon-icon" alt="Ícone Lua">
+              Dark Mode 
+            </a>
+          </p>
+        </ul>
+      </nav>
+            
+      <div class="content-general">
         <section id="main-title">
             <h1>My Courses</h1>
             <select id="all-courses" name="all-courses" class="dropdown">
@@ -134,30 +160,7 @@
             <progress value="76" max="100"></progress><span>76%</span>
           </div>
         </section>
-        </div>
-
-</body>
+      </div>
+    </main>
+  </body>
 </html>
-
-
-
-
-
-<header>
-  <div class="caixa-logo">
-    <img src="" alt="img">
-    <h1>texto</h1>
-  </div>
-  <div class="caixa-geral">
-    <div class="caixa-busca">
-      <button>
-        <img src="" alt="img">
-      </button>
-      <input type="text" name="" value="">
-    </div>
-    <div class="caixa-usuario">
-      <button><img src="" alt="img"></button>
-      <button><img src="" alt="img"></button>
-    </div>
-  </div>
-</header>

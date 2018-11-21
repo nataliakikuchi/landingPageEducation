@@ -4,7 +4,6 @@
   margin-top: 0px;
   margin-left: 0px;
   width: 160px;
-  height: 100%;
   border-right: solid;
   border-color: dimgrey;
   display: block;
@@ -19,9 +18,11 @@
 .groups {
   padding-left: 10px;
   list-style-type: none;
+  border: solid 1px orange;
 }
 
-  nav {
+nav {
     display: inline-block;
     width: 300px;
-  }
+    border: solid 1px red;
+}

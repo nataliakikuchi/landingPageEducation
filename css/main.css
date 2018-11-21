@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    border: solid 1px purple;
+}
+
 #main-title {
     display: flex;
     margin-left: 300px;
@@ -20,6 +30,13 @@
 }
 
 .content-general {
-    display: inline-block;
-    max-width: 30%;
+    display: flex;
+    border: solid 1px blue;
+
 }
+
+#main-content div {
+    display: flex;
+    justify-content: center;
+}
+
