@@ -1,7 +1,4 @@
-body {
-    display: flex;
-    flex-direction: column;
-}
+
 
 main {
     display: flex;
@@ -20,13 +17,13 @@ main {
 }
 
 #main-content {
-    display: flex;
+    
 
 }
 
 #main-content div {
-    display: flex;
-    flex-direction: column;
+    float: left;
+    width: 33%;
 }
 
 .content-general {
