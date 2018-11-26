@@ -1,39 +1,10 @@
-
-
-main {
-    display: flex;
-    border: solid 1px purple;
-}
-
-#main-title {
-    display: flex;
-    margin-left: 300px;
-}
-
-#main-title h1, select {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-#main-content {
-    
-
-}
-
-#main-content div {
-    float: left;
-    width: 33%;
+* {
+    box-sizing: border-box;
 }
 
 .content-general {
-    display: flex;
-    border: solid 1px blue;
-
+    width: 80%;
+    float: left;
+    background-color: pink;
+    padding: 50px 30px;
 }
-
-#main-content div {
-    display: flex;
-    justify-content: center;
-}
-
